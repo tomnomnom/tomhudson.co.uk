@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/tomnomnom
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tomhudson.co.uk
+  * I am tomnomnom (https://keybase.io/tomnomnom) on keybase.
+  * I have a public key with fingerprint 52D9 4FE1 8D6A A5EF 0FE3  3ECE CE03 0B9A DABB DC9E
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "52d94fe18d6aa5ef0fe33ecece030b9adabbdc9e",
+            "host": "keybase.io",
+            "key_id": "ce030b9adabbdc9e",
+            "uid": "731c4036e44d9e4a938516c56fa5e300",
+            "username": "tomnomnom"
+        },
+        "service": {
+            "hostname": "tomhudson.co.uk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408024094,
+    "expire_in": 157680000,
+    "prev": "612aacca827d855241436c972952af4d2e2797ede6f6250c9004a3b30259e8cc",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.3.1
+Comment: https://keybase.io/crypto
+
+yMHoAnicbZFdSBRRFMfXj0xXDVNQYdGlUYTM1jufuzNiERHhQ8RSSxTGMh933MGc
+WWdnN82UfRCDCjEspS/zXSOLrSxLRLcoNwwhpNJNxAexxEoyISO7I0Uv3Xvhcs/5
+/f/nHk40M8liTXj+9pxno2VbOCE2shq0HFkaLmzCBE1qxLgmrBZuXrKi1kDdryuq
+gXEYTUgsJUPcJTE8T0MZyJAkoYg2IIHA8hIvCJLIQqwM82kBU4FsBD4AHYqGYujh
+VSQU/Q8f3Ew4SVykAMlAipJYSPEs6aJxRqQZGZUjATDBANRVvg4i2tDq1M2DNZdh
+KBxSRGh+2qz9D/EFpYCmOkTNEaxFer+uGZqonUJJn2H4OVNrNPpN+DQUvH9svIKi
+Sqh3JAhBPaBoKsbhiBQNxfTFKeACBAVYqgyDDX5Fh17FJGgn4wJomWVgCFkyOMHz
+osi7CKfkommCwimSEVknwdIEL1MSAQkn64QSZGSGoIHIAkDxpEACgmahSxQxs7F6
+VcM4Bn2Tr0GWAaVG5Y2gDrHm0ZHqZEuC1ZKyJdGcnsWalvV3pjMTqZarbW+Gez2K
+j+u0z+WVFs/mMAdnSwpDscqV44NpkeqibLcvOXvArQZTY5c2Os7OrLQPP9sxPlf0
+7mn+zgdHM8IVu9MrLFXK4H32dkHF3UC5ffnLWl5La6O8YMutdFzri0S/xgs5/mRG
+mF7iMoYy7f6fQ1Nj5QXjk93hm4dy6H0x4WNW3eiB5e8ztteTTk9HSneJLe5+cn61
+ac/64mGt7cOv9VLrSjq48gi/83h7+5mxe73R+dYT+lhLUqltmu1aiF+81fDqW/7n
+l1uXp7ovJ/dX4/UTu7qKfyR2zr+3H6u68GL/Ykr4xkBkqie3v6fn4acqCUTX+jx7
+I4O+aff130PlGSY=
+=7eBi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tomnomnom
+
+==================================================================
+

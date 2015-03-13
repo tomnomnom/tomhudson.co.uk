@@ -1,0 +1,21 @@
+DirectoryIndex index.php
+
+ErrorDocument 404 /errors/404.php
+
+RewriteEngine on
+
+# Force non-www site
+RewriteCond %{HTTP_HOST}   ^www\.tomhudson\.co\.uk [NC]
+RewriteCond %{HTTP_HOST}   !^$
+RewriteRule ^(.*)          http://tomhudson.co.uk/$1 [L,R=301]
+
+# Redirect from old index.html
+RewriteCond %{REQUEST_FILENAME} index\.html
+RewriteRule index\.html         / [R=301]
+
+
+
+
+
+
+
