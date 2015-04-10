@@ -169,7 +169,7 @@
 
     <footer>
       <p>
-        &copy; Tom Hudson 2014 - I feel slightly sick having written all that stuff about myself.
+        &copy; Tom Hudson 2015 - I feel slightly sick having written all that stuff about myself.
       </p>
     </footer>
 
