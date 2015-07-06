@@ -29,7 +29,7 @@
 
     <hr/>
 
-    <section class="info">
+    <section class="info" id="likes">
       <h1>Things I like</h1>
       <p>
         I like computers; especially solving problems with computers. I write
@@ -43,7 +43,7 @@
 
     <hr/>
 
-    <section class="info">
+    <section class="info" id="talks">
       <h1>Things I&rsquo;ve talked about</h1>
       <p>
         I have talked at a few local group-meetings and conferences, 
@@ -71,32 +71,8 @@
 
     <hr/>
 
-    <section class="info">
-      <h1>Open Source</h1>
-      <p>
-        I&rsquo;ve not worked on as much Open Source stuff as I would like. Although I do release a lot
-        of the code I write outside of work, it&rsquo;s not always that useful.
-      </p>
 
-      <h2>Etherpad Lite</h2>
-      <p>
-        I have helped to maintain the <a href="http://etherpad.org/">Etherpad Lite</a> 
-        <a href="https://github.com/TomNomNom/etherpad-lite-client">PHP client</a>. It&rsquo;s by 
-        no means a complex client, but I&rsquo;m proud to be a part of the project. 
-      </p>
-
-      <h2>Raspberry Pi User Guide</h2>
-      <p>
-        Whilst not strictly open source, I contributed a <a href="http://media.wiley.com/product_ancillary/6X/11184644/DOWNLOAD/ircuserlist.py">Python program</a>
-        to the <a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111846446X.html">Official Raspberry Pi User Guide</a>. 
-        It&rsquo;s a simple program designed to demonstrate basic network programming by connecting
-        to an <abbr title="Internet Relay Chat">IRC</abbr> server and listing the connected users. 
-      </p>
-    </section>
-
-    <hr/>
-
-    <section class="info">
+    <section class="info" id="work">
       <h1>Places I have worked</h1>
       <p>
         I have decided to miss out the time that I worked for a paintball centre.
@@ -158,7 +134,44 @@
 
     <hr/>
 
-    <section class="info">
+    <section class="info" id="opensource">
+      <h1>Open Source</h1>
+      <p>
+        I&rsquo;ve not worked on as much Open Source stuff as I would like, but here are a few things
+        that I have worked on.
+      </p>
+
+      <h2>Etherpad Lite</h2>
+      <p>
+        I have helped to maintain the <a href="http://etherpad.org/">Etherpad Lite</a>
+        <a href="https://github.com/TomNomNom/etherpad-lite-client">PHP client</a>. It&rsquo;s by
+        no means a complex client, but I&rsquo;m proud to be a part of the project.
+      </p>
+
+      <h2>Goomwwm</h2>
+      <p>
+        A minor contribution, but I <a href="http://tomnomnom.com/posts/debugging-a-segfault-in-goomwwm">fixed a segfault in Goomwwm</a>.
+        The fix was simple, but the debugging less so.
+      </p>
+
+      <h2>Gosseract</h2>
+      <p>
+        I added Tesseract 3.03 support to <a href="https://github.com/otiai10/gosseract">gosseract</a>
+        (a <a href="https://en.wikipedia.org/wiki/Tesseract_(software)">Tesseract</a> wrapper for Go), and improved the test suite.
+      </p>
+
+      <h2>Raspberry Pi User Guide</h2>
+      <p>
+        Whilst not strictly open source, I contributed a <a href="http://media.wiley.com/product_ancillary/6X/11184644/DOWNLOAD/ircuserlist.py">Python program</a>
+        to the <a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111846446X.html">Official Raspberry Pi User Guide</a>.
+        It&rsquo;s a simple program designed to demonstrate basic network programming by connecting
+        to an <abbr title="Internet Relay Chat">IRC</abbr> server and listing the connected users.
+      </p>
+    </section>
+
+    <hr/>
+
+    <section class="info" id="contact">
       <h1>How to contact me</h1>
       <p>
         If it&rsquo;s informal, feel free to <a href="https://twitter.com/#!/TomNomNom">mention me on Twitter</a>.
