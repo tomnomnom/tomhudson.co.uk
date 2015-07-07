@@ -18,7 +18,7 @@
   <body>
     <header>
       <h1>Tom Hudson</h1>
-      <h2>What an American might call a r&eacute;sum&eacute;</h2>
+      <p>What an American might call a r&eacute;sum&eacute;</p>
     </header>
 
     <section class="info">

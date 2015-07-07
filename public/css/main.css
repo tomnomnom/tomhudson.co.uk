@@ -30,6 +30,11 @@ h1, h2, h3 {
   margin: 0;
 }
 
+header p {
+  font-family: 'Droid Serif', serif;
+  font-weight: bold;
+}
+
 p {
   line-height: 1.5em;
   margin: 0;
