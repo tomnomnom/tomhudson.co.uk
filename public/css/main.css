@@ -54,38 +54,41 @@ a:visited {
 
 ::selection {
   color: #EFEFEF;
-  background: #119C11; 
+  background: #119C11;
 }
 ::-moz-selection {
   color: #EFEFEF;
   background: #119C11;
 }
 
-h1 a, h1 a:visited {
+h2 a, h2 a:visited {
   color: #232323;
 }
-h1 a:hover {
+h2 a:hover {
   color: #119C11;
   text-decoration: none;
 }
 
-header { 
-  text-align: center; 
+header {
+  text-align: center;
   margin: 1rem;
 }
 header h1 { font-size: 3.5em; }
-header h2 { font-size: 1.1em; }
 header { margin-bottom: 1.5em; }
 
-section.info { 
+section.info {
   font-size: 16px;
 }
-section.info h1 { 
-  font-size: 1.4em; 
+section.info h1 {
+  font-size: 1.4em;
   margin-bottom: 0.5rem;
 }
-section.info h2 { 
-  font-size: 1.1em; 
+section.info h2 {
+  font-size: 1.4em;
+  margin-bottom: 0.5rem;
+}
+section.info h3 {
+  font-size: 1.1em;
   margin-bottom: 0.5rem;
 }
 
@@ -102,7 +105,7 @@ hr {
 footer p {
   display: block;
   margin-top: 5em;
-  font-size: 0.6em; 
+  font-size: 0.6em;
 }
 
 abbr {
