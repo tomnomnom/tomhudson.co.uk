@@ -56,6 +56,14 @@ a:visited {
   background: #119C11;
 }
 
+h1 a, h1 a:visited {
+  color: #232323;
+}
+h1 a:hover {
+  color: #119C11;
+  text-decoration: none;
+}
+
 header { 
   text-align: center; 
   margin: 1rem;

@@ -6,6 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="google-site-verification" content="gEn3cSDMkUx1RI20_8WrDJgvF8MicJqCBEgijIto8Bs" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="theme-color" content="#119C11">
+    <link rel="icon" sizes="64x64" href="/favicon.ico" type="image/x-icon">
 
     <!-- Special thanks to Harry of http://csswizardry.com/ for his advice on markup, style and CSS -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif"/>
@@ -20,7 +22,7 @@
     </header>
 
     <section class="info">
-      <h1>Who I am</h1>
+      <h1><a href="#info">Who I am</a></h1>
       <p>
         I am a geek from Bradford, UK. I currently work for Sky Bet in Leeds as a Principal Engineer.
         I like to learn things and <a href="https://github.com/TomNomNom">write code</a>.
@@ -30,7 +32,7 @@
     <hr/>
 
     <section class="info" id="likes">
-      <h1>Things I like</h1>
+      <h1><a href="#likes">Things I like</a></h1>
       <p>
         I like computers; especially solving problems with computers. I write
         quite a bit of PHP, and a bit of <a href="http://golang.org/">Go</a>.
@@ -44,9 +46,9 @@
     <hr/>
 
     <section class="info" id="talks">
-      <h1>Things I&rsquo;ve talked about</h1>
+      <h1><a href="#talks">Things I&rsquo;ve talked about</a></h1>
       <p>
-        I have talked at a few local group-meetings and conferences, 
+        I have talked at a few local group-meetings and conferences,
         including <a href="http://leedsphp.org/">LeedsPHP</a>,
         <a href="http://barcampbarnsley.eventbrite.com/">BarCamp Barnsley</a> and
         <a href="http://thedigitalbarn.co.uk/">The Digital Barn</a>.
@@ -65,60 +67,44 @@
           <li><a href="https://github.com/TomNomNom/build-a-vm-talk">Building a simple Language VM</a></li>
         </ul>
 
-        &hellip;and I have some more planned.
       </p>
     </section>
 
     <hr/>
 
-
     <section class="info" id="work">
-      <h1>Places I have worked</h1>
+      <h1><a href="#work">Places I have worked</a></h1>
       <p>
-        I have decided to miss out the time that I worked for a paintball centre.
+        I&rsquo;ve decided to miss out the time that I worked for a paintball centre.
         It was fun, but it taught me very little about computers.
       </p>
 
       <h2>Sky Bet</h2>
       <p>
-        I started at Sky Bet in February 2011 as a software engineer. I worked in an Agile team on Sky Bet&rsquo;s 
-        <abbr title="Linux Apache MySQL PHP">LAMP</abbr>-based <abbr title="Single Sign On">SSO</abbr>
-        system that now powers <a href="http://www.skybet.com/betting">Sky Bet</a>,
-        <a href="http://www.skyvegas.com/vegas">Sky Vegas</a>, 
-        <a href="http://fantasyfootball.skysports.com/">Sky Sports&rsquo; Fantasy Football</a> and
-        <a href="http://www.challenge.co.uk/">Challenge.co.uk</a>. 
+        I've worked at Sky Bet since 2011 when I joined as a software engineer. I&rsquo;ve held 4 more
+        job titles since then: DevOps Engineer, Senior DevOps Engineer, Solutions Architect and now: Principal Engineer.
       </p>
       <p>
-        In August 2011 I became Sky Bet&rsquo;s first <a href="http://en.wikipedia.org/wiki/DevOps">DevOps</a> 
-        engineer. I worked on trend monitoring with <a href="http://graphite.wikidot.com/">Graphite</a>, 
-        automation with <a href="http://www.opscode.com/chef/">Chef</a> and helped our developers to improve
-        <a href="http://www.skyvegas.com/vegas">Sky Vegas</a>. 
+        As a result of my many job titles, I've been involved in a pretty broad range of things; like building an
+        <abbr title="Single Sign On">SSO</abbr> system, building real-time monitoring with <a href="http://graphite.wikidot.com/">Graphite</a>,
+        replacing an antiquated configuration management system with <a href="http://www.opscode.com/chef/">Chef</a>,
+        and even building a monitoring system that does <abbr title="Optical Character Recognition">OCR</abbr>
+        on a live video stream to make sure it&rsquo;s in sync.
       </p>
       <p>
-        In October 2012 I was promoted to Senior DevOps Engineer. While 
-        much of my day to day life remained the same I made more 
-        decisions and helped our newer DevOps Engineers get up to speed.
-      </p>
-      <p>
-        From October 2013 to January 2015 I was a Solutions Architect
-        working on new products, features and real-time trading systems.
-      </p>
-      <p>
-        In January 2015 it was suggested that my talents would be better
-        used as a Principal Engineer, working on whatever problems are
-        the most pressing at the time - and mentoring other engineers 
-        on the best practices for development, testing and operations.
+        My day-to-day mostly revolves around mentoring other engineers, writing <abbr title="Proof Of Concept">POC</abbr>
+        code, researching and assessing new technologies and techniques, and just plain old fixing things when they break.
       </p>
 
       <h2>FrogTrade</h2>
       <p>
         From 2008 until 2010 I worked at Halifax-based <abbr title="Virtual Learning Environment">VLE</abbr>
         provider <a href="http://frogtrade.com/">FrogTrade</a> as a Web Applications Developer,
-        and later as Software Architect. Much of my time as a developer was spent helping to iron 
+        and later as Software Architect. Much of my time as a developer was spent helping to iron
         the bugs out of FrogTrade&rsquo;s half-million line codebase, and adding much requested new features.
       </p>
       <p>
-        As Software Architect I designed a controller and view system for a new product and 
+        As Software Architect I designed a controller and view system for a new product and
         back-ported it to the existing software. I also laid the foundations for a flexible, XML-based
         reporting system.
       </p>
@@ -135,10 +121,17 @@
     <hr/>
 
     <section class="info" id="opensource">
-      <h1>Open Source</h1>
+      <h1><a href="#opensource">Open Source</a></h1>
       <p>
         I&rsquo;ve not worked on as much Open Source stuff as I would like, but here are a few things
         that I have worked on.
+      </p>
+
+      <h2>Phargs</h2>
+      <p>
+        I wrote <a href="https://github.com/TomNomNom/phargs">Phargs</a> to take the pain out of writing <abbr title="Command Line Interface">CLI</abbr>
+        tools in PHP, particularly argument processing. It&rsquo;s very much a toolkit rather than a framework, so you can easily pick and choose
+        the bits you need and ignore the rest.
       </p>
 
       <h2>Etherpad Lite</h2>
@@ -154,6 +147,12 @@
         The fix was simple, but the debugging less so.
       </p>
 
+      <h2>Pwas</h2>
+      <p>
+        I&rsquo;d never suggest anyone ran it in production, but I wrote <a href="https://github.com/TomNomNom/Pwas">a forking webserver in PHP</a>
+        to improve my understanding of HTTP.
+      </p>
+
       <h2>Gosseract</h2>
       <p>
         I added Tesseract 3.03 support to <a href="https://github.com/otiai10/gosseract">gosseract</a>
@@ -162,7 +161,7 @@
 
       <h2>Raspberry Pi User Guide</h2>
       <p>
-        Whilst not strictly open source, I contributed a <a href="http://media.wiley.com/product_ancillary/6X/11184644/DOWNLOAD/ircuserlist.py">Python program</a>
+        I contributed a <a href="http://media.wiley.com/product_ancillary/6X/11184644/DOWNLOAD/ircuserlist.py">Python program</a>
         to the <a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111846446X.html">Official Raspberry Pi User Guide</a>.
         It&rsquo;s a simple program designed to demonstrate basic network programming by connecting
         to an <abbr title="Internet Relay Chat">IRC</abbr> server and listing the connected users.
@@ -172,7 +171,7 @@
     <hr/>
 
     <section class="info" id="contact">
-      <h1>How to contact me</h1>
+      <h1><a href="#contact">How to contact me</a></h1>
       <p>
         If it&rsquo;s informal, feel free to <a href="https://twitter.com/#!/TomNomNom">mention me on Twitter</a>.
         If you want a bit more privacy or aren&rsquo;t a fan of this new-fangled social networking, just
@@ -182,7 +181,7 @@
 
     <footer>
       <p>
-        &copy; Tom Hudson 2015 - I feel slightly sick having written all that stuff about myself.
+        &copy; Tom Hudson <?=date('Y');?> - I feel slightly sick having written all that stuff about myself.
       </p>
     </footer>
 
