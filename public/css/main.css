@@ -7,7 +7,7 @@ html {
 
 body {
   font-weight: 400;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'EB Garamond', serif;
   vertical-align: baseline;
   font-size: 16px;
   max-width: 42rem;
@@ -28,12 +28,13 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Droid Serif', serif;
+  font-family: 'EB Garamond', serif;
+  font-variant: small-caps;
   margin: 0;
 }
 
 header p {
-  font-family: 'Droid Serif', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: bold;
 }
 
@@ -48,7 +49,6 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
 }
 a:visited {
   color: #5DA35D;
@@ -75,19 +75,15 @@ header {
   text-align: center;
   margin: 1rem;
 }
-header h1 { font-size: 3.5em; }
+header h1 { font-size: 4em; }
 header { margin-bottom: 1.5em; }
 
 section.info {
   font-size: 16px;
 }
-section.info h1 {
-  font-size: 1.4em;
-  margin-bottom: 0.5rem;
-}
 section.info h2 {
   font-size: 1.4em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 section.info h3 {
   font-size: 1.1em;
@@ -117,6 +113,9 @@ abbr {
 ul {
   list-style: none;
   padding-left: 1.5rem;
+}
+ul li {
+  margin-bottom: 0.2em;
 }
 ul li:before {
   content: '\2794';
