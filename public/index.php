@@ -10,7 +10,8 @@
     <link rel="icon" sizes="64x64" href="/favicon.ico" type="image/x-icon">
 
     <!-- Special thanks to Harry of http://csswizardry.com/ for his advice on markup, style and CSS -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=EB+Garamond">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif"/>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
   </head>
@@ -20,39 +21,39 @@
       <p>What an American might call a r&eacute;sum&eacute;</p>
     </header>
 
-        <section class="info" id="info">
-        <h2><a href="#info">Who I am</a></h2>
-        <p>
-            I am a geek from Bradford, UK. I currently work for Sky Bet in Leeds as a Principal Engineer.
-            I like to learn things and <a href="https://github.com/TomNomNom">write code</a>.
-        </p>
-        </section>
+    <section class="info" id="info">
+      <h2><a href="#info">Who I am</a></h2>
+      <p>
+        I am a geek from Bradford, UK. I currently work for Sky Bet in Leeds as a Principal Engineer.
+        I like to learn things and <a href="https://github.com/TomNomNom">write code</a>.
+      </p>
+    </section>
 
-        <hr/>
+    <hr/>
 
-        <section class="info" id="likes">
-        <h2><a href="#likes">Things I like</a></h2>
-        <p>
-            I like computers; especially solving problems with computers. I write
-            quite a bit of PHP, and a bit of <a href="http://golang.org/">Go</a>.
-        </p>
-        <p>
-            When I&rsquo;m at work I help build, fix and improve large-scale, highly-available and real-time systems with
-            technologies like PHP, Node.js, Redis, MySQL, Memcached, RabbitMQ and MongoDB.
-        </p>
-        </section>
+    <section class="info" id="likes">
+      <h2><a href="#likes">Things I like</a></h2>
+      <p>
+        I like computers; especially solving problems with computers. I write
+        quite a bit of PHP, and a bit of <a href="http://golang.org/">Go</a>.
+      </p>
+      <p>
+        When I&rsquo;m at work I help build, fix and improve large-scale, highly-available and real-time systems with
+        technologies like PHP, Node.js, Redis, MySQL, Memcached, RabbitMQ and MongoDB.
+      </p>
+    </section>
 
-        <hr/>
+    <hr/>
 
-        <section class="info" id="talks">
-        <h2><a href="#talks">Things I&rsquo;ve talked about</a></h2>
-        <p>
-            I have talked at a few local group-meetings and conferences,
-            including <a href="http://leedsphp.org/">LeedsPHP</a>,
-            <a href="http://barcampbarnsley.eventbrite.com/">BarCamp Barnsley</a> and
-            <a href="http://thedigitalbarn.co.uk/">The Digital Barn</a>.
-            I&rsquo;ve talked about:
-        </p>
+    <section class="info" id="talks">
+      <h2><a href="#talks">Things I&rsquo;ve talked about</a></h2>
+      <p>
+        I have talked at a few local group-meetings and conferences,
+        including <a href="http://leedsphp.org/">LeedsPHP</a>,
+        <a href="http://barcampbarnsley.eventbrite.com/">BarCamp Barnsley</a> and
+        <a href="http://thedigitalbarn.co.uk/">The Digital Barn</a>.
+        I&rsquo;ve talked about:
+      </p>
 
         <ul>
             <li><a href="https://github.com/TomNomNom/PHP-RockBand-Drums">Writing a RockBand drum game in PHP</a></li>
@@ -71,116 +72,116 @@
             If you&rsquo;ve got an event you&rsquo;d like me to speak at, please <a href="#contact">contact me</a>.
         </p>
 
-        </section>
+    </section>
 
-        <hr/>
+    <hr/>
 
-        <section class="info" id="work">
-        <h2><a href="#work">Places I have worked</a></h2>
-        <p>
-            I&rsquo;ve decided to miss out the time that I worked for a paintball centre.
-            It was fun, but it taught me very little about computers.
-        </p>
+    <section class="info" id="work">
+      <h2><a href="#work">Places I have worked</a></h2>
+      <p>
+        I&rsquo;ve decided to miss out the time that I worked for a paintball centre.
+        It was fun, but it taught me very little about computers.
+      </p>
 
-        <h3>Sky Bet</h3>
-        <p>
-            I've worked at Sky Bet since 2011 when I joined as a software engineer. I&rsquo;ve held 4 more
-            job titles since then: DevOps Engineer, Senior DevOps Engineer, Solutions Architect and now: Principal Engineer.
-        </p>
-        <p>
-            As a result of my many job titles, I've been involved in a pretty broad range of things; like building an
-            <abbr title="Single Sign On">SSO</abbr> system, building real-time monitoring with <a href="http://graphite.wikidot.com/">Graphite</a>,
-            replacing an antiquated configuration management system with <a href="http://www.opscode.com/chef/">Chef</a>,
-            and even building a monitoring system that does <abbr title="Optical Character Recognition">OCR</abbr>
-            on a live video stream to make sure it&rsquo;s in sync.
-        </p>
-        <p>
-            My day-to-day mostly revolves around mentoring other engineers, writing <abbr title="Proof Of Concept">POC</abbr>
-            code, researching and assessing new technologies and techniques, and just plain old fixing things when they break.
-        </p>
+      <h3>Sky Bet</h3>
+      <p>
+        I've worked at Sky Bet since 2011 when I joined as a software engineer. I&rsquo;ve held 4 more
+        job titles since then: DevOps Engineer, Senior DevOps Engineer, Solutions Architect and now: Principal Engineer.
+      </p>
+      <p>
+        As a result of my many job titles, I've been involved in a pretty broad range of things; like building an
+        <abbr title="Single Sign On">SSO</abbr> system, building real-time monitoring with <a href="http://graphite.wikidot.com/">Graphite</a>,
+        replacing an antiquated configuration management system with <a href="http://www.opscode.com/chef/">Chef</a>,
+        and even building a monitoring system that does <abbr title="Optical Character Recognition">OCR</abbr>
+        on a live video stream to make sure it&rsquo;s in sync.
+      </p>
+      <p>
+        My day-to-day mostly revolves around mentoring other engineers, writing <abbr title="Proof Of Concept">POC</abbr>
+        code, researching and assessing new technologies and techniques, and just plain old fixing things when they break.
+      </p>
 
-        <h3>FrogTrade</h3>
-        <p>
-            From 2008 until 2010 I worked at Halifax-based <abbr title="Virtual Learning Environment">VLE</abbr>
-            provider <a href="http://frogtrade.com/">FrogTrade</a> as a Web Applications Developer,
-            and later as Software Architect. Much of my time as a developer was spent helping to iron
-            the bugs out of FrogTrade&rsquo;s half-million line codebase, and adding much requested new features.
-        </p>
-        <p>
-            As Software Architect I designed a controller and view system for a new product and
-            back-ported it to the existing software. I also laid the foundations for a flexible, XML-based
-            reporting system.
-        </p>
+      <h3>FrogTrade</h3>
+      <p>
+        From 2008 until 2010 I worked at Halifax-based <abbr title="Virtual Learning Environment">VLE</abbr>
+        provider <a href="http://frogtrade.com/">FrogTrade</a> as a Web Applications Developer,
+        and later as Software Architect. Much of my time as a developer was spent helping to iron
+        the bugs out of FrogTrade&rsquo;s half-million line codebase, and adding much requested new features.
+      </p>
+      <p>
+        As Software Architect I designed a controller and view system for a new product and
+        back-ported it to the existing software. I also laid the foundations for a flexible, XML-based
+        reporting system.
+      </p>
 
-        <h3>Primary Technology</h3>
-        <p>
-            I originally started at <a href="http://www.primaryt.co.uk/">Primary Technology</a> as a network
-            engineer in 2005; maintaining Windows-based networks in Bradford primary schools. I later became
-            the Hosted Services Director where I managed an Exchange-based hosted email system, remote access
-            system and wrote a web-based ticket management system.
-        </p>
-        </section>
+      <h3>Primary Technology</h3>
+      <p>
+        I originally started at <a href="http://www.primaryt.co.uk/">Primary Technology</a> as a network
+        engineer in 2005; maintaining Windows-based networks in Bradford primary schools. I later became
+        the Hosted Services Director where I managed an Exchange-based hosted email system, remote access
+        system and wrote a web-based ticket management system.
+      </p>
+    </section>
 
-        <hr/>
+    <hr/>
 
-        <section class="info" id="opensource">
-        <h2><a href="#opensource">Open Source</a></h2>
-        <p>
-            I&rsquo;ve not worked on as much Open Source stuff as I would like, but here are a few things
-            that I have worked on.
-        </p>
+    <section class="info" id="opensource">
+      <h2><a href="#opensource">Open Source</a></h2>
+      <p>
+        I&rsquo;ve not worked on as much Open Source stuff as I would like, but here are a few things
+        that I have worked on.
+      </p>
 
-        <h3>Phargs</h3>
-        <p>
-            I wrote <a href="https://github.com/TomNomNom/phargs">Phargs</a> to take the pain out of writing <abbr title="Command Line Interface">CLI</abbr>
-            tools in PHP, particularly argument processing. It&rsquo;s very much a toolkit rather than a framework, so you can easily pick and choose
-            the bits you need and ignore the rest.
-        </p>
+      <h3>Phargs</h3>
+      <p>
+        I wrote <a href="https://github.com/TomNomNom/phargs">Phargs</a> to take the pain out of writing <abbr title="Command Line Interface">CLI</abbr>
+        tools in PHP, particularly argument processing. It&rsquo;s very much a toolkit rather than a framework, so you can easily pick and choose
+        the bits you need and ignore the rest.
+      </p>
 
-        <h3>Etherpad Lite</h3>
-        <p>
-            I have helped to maintain the <a href="http://etherpad.org/">Etherpad Lite</a>
-            <a href="https://github.com/TomNomNom/etherpad-lite-client">PHP client</a>. It&rsquo;s by
-            no means a complex client, but I&rsquo;m proud to be a part of the project.
-        </p>
+      <h3>Etherpad Lite</h3>
+      <p>
+        I have helped to maintain the <a href="http://etherpad.org/">Etherpad Lite</a>
+        <a href="https://github.com/TomNomNom/etherpad-lite-client">PHP client</a>. It&rsquo;s by
+        no means a complex client, but I&rsquo;m proud to be a part of the project.
+      </p>
 
-        <h3>Goomwwm</h3>
-        <p>
-            A minor contribution, but I <a href="http://tomnomnom.com/posts/debugging-a-segfault-in-goomwwm">fixed a segfault in Goomwwm</a>.
-            The fix was simple, but the debugging less so.
-        </p>
+      <h3>Goomwwm</h3>
+      <p>
+        A minor contribution, but I <a href="http://tomnomnom.com/posts/debugging-a-segfault-in-goomwwm">fixed a segfault in Goomwwm</a>.
+        The fix was simple, but the debugging less so.
+      </p>
 
-        <h3>Pwas</h3>
-        <p>
-            I&rsquo;d never suggest anyone ran it in production, but I wrote <a href="https://github.com/TomNomNom/Pwas">a forking webserver in PHP</a>
-            to improve my understanding of HTTP.
-        </p>
+      <h3>Pwas</h3>
+      <p>
+        I&rsquo;d never suggest anyone ran it in production, but I wrote <a href="https://github.com/TomNomNom/Pwas">a forking webserver in PHP</a>
+        to improve my understanding of HTTP.
+      </p>
 
-        <h3>Gosseract</h3>
-        <p>
-            I added Tesseract 3.03 support to <a href="https://github.com/otiai10/gosseract">gosseract</a>
-            (a <a href="https://en.wikipedia.org/wiki/Tesseract_(software)">Tesseract</a> wrapper for Go), and improved the test suite.
-        </p>
+      <h3>Gosseract</h3>
+      <p>
+        I added Tesseract 3.03 support to <a href="https://github.com/otiai10/gosseract">gosseract</a>
+        (a <a href="https://en.wikipedia.org/wiki/Tesseract_(software)">Tesseract</a> wrapper for Go), and improved the test suite.
+      </p>
 
-        <h3>Raspberry Pi User Guide</h3>
-        <p>
-            I contributed a <a href="http://media.wiley.com/product_ancillary/6X/11184644/DOWNLOAD/ircuserlist.py">Python program</a>
-            to the <a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111846446X.html">Official Raspberry Pi User Guide</a>.
-            It&rsquo;s a simple program designed to demonstrate basic network programming by connecting
-            to an <abbr title="Internet Relay Chat">IRC</abbr> server and listing the connected users.
-        </p>
-        </section>
+      <h3>Raspberry Pi User Guide</h3>
+      <p>
+        I contributed a <a href="http://media.wiley.com/product_ancillary/6X/11184644/DOWNLOAD/ircuserlist.py">Python program</a>
+        to the <a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111846446X.html">Official Raspberry Pi User Guide</a>.
+        It&rsquo;s a simple program designed to demonstrate basic network programming by connecting
+        to an <abbr title="Internet Relay Chat">IRC</abbr> server and listing the connected users.
+      </p>
+    </section>
 
-        <hr/>
+    <hr/>
 
-        <section class="info" id="contact">
-        <h2><a href="#contact">How to contact me</a></h2>
-        <p>
-            If it&rsquo;s informal, feel free to <a href="https://twitter.com/#!/TomNomNom">mention me on Twitter</a>.
-            If you want a bit more privacy or aren&rsquo;t a fan of this new-fangled social networking, just
-            <a href="mailto:me@tomhudson.co.uk">email me</a> instead.
-        </p>
-        </section>
+    <section class="info" id="contact">
+      <h2><a href="#contact">How to contact me</a></h2>
+      <p>
+        If it&rsquo;s informal, feel free to <a href="https://twitter.com/#!/TomNomNom">mention me on Twitter</a>.
+        If you want a bit more privacy or aren&rsquo;t a fan of this new-fangled social networking, just
+        <a href="mailto:me@tomhudson.co.uk">email me</a> instead.
+      </p>
+    </section>
 
     <footer>
       <p>
