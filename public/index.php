@@ -83,7 +83,7 @@
         It was fun, but it taught me very little about computers.
       </p>
 
-      <h3>Sky Bet</h3>
+      <h3>Principal Engineer at Sky Bet</h3>
       <p>
         I've worked at Sky Bet since 2011 when I joined as a software engineer. I&rsquo;ve held 4 more
         job titles since then: DevOps Engineer, Senior DevOps Engineer, Solutions Architect and now: Principal Engineer.
@@ -100,7 +100,7 @@
         code, researching and assessing new technologies and techniques, and just plain old fixing things when they break.
       </p>
 
-      <h3>FrogTrade</h3>
+      <h3>Software Architect at FrogTrade</h3>
       <p>
         From 2008 until 2010 I worked at Halifax-based <abbr title="Virtual Learning Environment">VLE</abbr>
         provider <a href="http://frogtrade.com/">FrogTrade</a> as a Web Applications Developer,
@@ -113,7 +113,7 @@
         reporting system.
       </p>
 
-      <h3>Primary Technology</h3>
+      <h3>Hosted Services Director at Primary Technology</h3>
       <p>
         I originally started at <a href="http://www.primaryt.co.uk/">Primary Technology</a> as a network
         engineer in 2005; maintaining Windows-based networks in Bradford primary schools. I later became
