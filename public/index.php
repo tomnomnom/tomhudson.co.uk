@@ -10,9 +10,9 @@
     <link rel="icon" sizes="64x64" href="/favicon.ico" type="image/x-icon">
 
     <!-- Special thanks to Harry of http://csswizardry.com/ for his advice on markup, style and CSS -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif"/>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans"/>
-    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif"/>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
 
   </head>
   <body>
