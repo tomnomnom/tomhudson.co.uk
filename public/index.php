@@ -25,7 +25,7 @@
       <h2><a href="#info">Who I am</a></h2>
       <p>
         I am a geek from Bradford, UK. I currently work for Sky Bet in Leeds as a Principal Engineer.
-        I like to learn things and <a href="https://github.com/TomNomNom">write code</a>.
+        I like to learn things, <a href="https://github.com/TomNomNom">write code</a>, and <a href="https://tomnomnom.com">write words</a>.
       </p>
     </section>
 
