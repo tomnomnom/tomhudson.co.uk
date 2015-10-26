@@ -20,6 +20,11 @@
     <meta property="profile:last_name" content="Hudson" />
     <meta property="og:url" content="<?=$host?>/" />
     <meta property="og:image" content="<?=$host?>/images/sheep-solid.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@TomNomNom" />
+    <meta name="twitter:title" content="Tom Hudson" />
+    <meta name="twitter:description" content="What an American might call a r&eacute;sum&eacute;" />
+    <meta name="twitter:image" content="<?=$host?>/images/sheep-solid.jpg" />
     <link rel="icon" sizes="64x64" href="/favicon.ico" type="image/x-icon">
 
     <!-- Special thanks to Harry of http://csswizardry.com/ for his advice on markup, style and CSS -->
