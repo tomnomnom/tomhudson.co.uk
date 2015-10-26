@@ -1,12 +1,25 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head prefix="profile: http://ogp.me/ns/profile#">
     <title>Tom Hudson &mdash; What an American might call a r&eacute;sum&eacute;</title>
-
+    <?php
+        $proto = 'http://';
+        if (isset($_SERVER['HTTPS'])){
+            $proto = 'https://';
+        }
+        $host = $proto.$_SERVER['HTTP_HOST'];
+    ?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="google-site-verification" content="gEn3cSDMkUx1RI20_8WrDJgvF8MicJqCBEgijIto8Bs" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="theme-color" content="#119C11">
+    <meta property="og:title" content="Tom Hudson" />
+    <meta property="og:description" content="What an American might call a r&eacute;sum&eacute;" />
+    <meta property="og:type" content="profile" />
+    <meta property="profile:first_name" content="Tom" />
+    <meta property="profile:last_name" content="Hudson" />
+    <meta property="og:url" content="<?=$host?>/" />
+    <meta property="og:image" content="<?=$host?>/images/sheep-solid.jpg" />
     <link rel="icon" sizes="64x64" href="/favicon.ico" type="image/x-icon">
 
     <!-- Special thanks to Harry of http://csswizardry.com/ for his advice on markup, style and CSS -->
