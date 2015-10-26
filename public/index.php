@@ -4,7 +4,7 @@
     <title>Tom Hudson &mdash; What an American might call a r&eacute;sum&eacute;</title>
     <?php
         $proto = 'http://';
-        if (isset($_SERVER['HTTPS'])){
+        if ($_SERVER['HTTP_HOST'] == 'tomhudson.co.uk'){
             $proto = 'https://';
         }
         $host = $proto.$_SERVER['HTTP_HOST'];
