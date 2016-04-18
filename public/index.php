@@ -41,23 +41,12 @@
     <section class="info" id="info">
       <h2><a href="#info">Who I am</a></h2>
       <p>
-        I am a geek from Bradford, UK. I currently work for Sky Bet in Leeds as a Principal Engineer.
-        I like to learn things, <a href="https://github.com/TomNomNom">write code</a>, and <a href="https://tomnomnom.com">write words</a>.
+        I am a geek from Bradford, UK. I work at Sky Betting &amp; Gaming, where I lead the Delivery Engineering team.
+        I like to learn things, write <a href="https://github.com/search?utf8=%E2%9C%93&q=user%3Atomnomnom+language%3Aphp&type=Repositories&ref=searchresults">quite a bit of PHP</a>,
+        <a href="https://github.com/search?utf8=%E2%9C%93&q=user%3Atomnomnom+language%3Ago&type=Repositories&ref=searchresults">a bit of Go</a>,
+        and <a href="https://tomnomnom.com">I like to write words too</a>.
       </p>
-    </section>
 
-    <hr/>
-
-    <section class="info" id="likes">
-      <h2><a href="#likes">Things I like</a></h2>
-      <p>
-        I like computers; especially solving problems with computers. I write
-        quite a bit of PHP, and a bit of <a href="http://golang.org/">Go</a>.
-      </p>
-      <p>
-        When I&rsquo;m at work I help build, fix and improve large-scale, highly-available and real-time systems with
-        technologies like PHP, Node.js, Redis, MySQL, Memcached, RabbitMQ and MongoDB.
-      </p>
     </section>
 
     <hr/>
@@ -65,10 +54,11 @@
     <section class="info" id="talks">
       <h2><a href="#talks">Things I&rsquo;ve talked about</a></h2>
       <p>
-        I have talked at a few local group-meetings and conferences,
-        including <a href="http://leedsphp.org/">LeedsPHP</a>,
-        <a href="http://barcampbarnsley.eventbrite.com/">BarCamp Barnsley</a> and
-        <a href="http://thedigitalbarn.co.uk/">The Digital Barn</a>.
+        I&rsquo;ve spoken on a variety of subjects at several user groups and conferences,
+        like <a href="http://leedsphp.org/">LeedsPHP</a>,
+        <a href="http://barcampbarnsley.eventbrite.com/">BarCamp Barnsley</a>,
+        <a href="http://thedigitalbarn.co.uk/">The Digital Barn</a>, and
+        <a href="https://heyst.ac/">Hey!Stac</a>.
         I&rsquo;ve talked about:
       </p>
 
@@ -95,42 +85,22 @@
 
     <section class="info" id="work">
       <h2><a href="#work">Places I have worked</a></h2>
+
+      <h3>Sky Betting &amp; Gaming</h3>
       <p>
-        I&rsquo;ve decided to miss out the time that I worked for a paintball centre.
-        It was fun, but it taught me very little about computers.
+        I&rsquo;ve worked at Sky Betting &amp; Gaming since 2011 when I joined as a software engineer. 
+        Now, five years later, I lead the Delivery Engineering team - who try their best to make it
+        easier for people to deliver software. We build tools, train people, and streamline processes.
       </p>
 
-      <h3>Principal Engineer at Sky Bet</h3>
+      <h3>FrogTrade Ltd</h3>
       <p>
-        I've worked at Sky Bet since 2011 when I joined as a software engineer. I&rsquo;ve held 4 more
-        job titles since then: DevOps Engineer, Senior DevOps Engineer, Solutions Architect and now: Principal Engineer.
-      </p>
-      <p>
-        As a result of my many job titles, I've been involved in a pretty broad range of things; like building an
-        <abbr title="Single Sign On">SSO</abbr> system, building real-time monitoring with <a href="http://graphite.wikidot.com/">Graphite</a>,
-        replacing an antiquated configuration management system with <a href="http://www.opscode.com/chef/">Chef</a>,
-        and even building a monitoring system that does <abbr title="Optical Character Recognition">OCR</abbr>
-        on a live video stream to make sure it&rsquo;s in sync.
-      </p>
-      <p>
-        My day-to-day mostly revolves around mentoring other engineers, writing <abbr title="Proof Of Concept">POC</abbr>
-        code, researching and assessing new technologies and techniques, and just plain old fixing things when they break.
+        I worked at FrogTrade from 2008 until 2011. Starting as an Application Developer I helped
+        iron the bugs out of their rather sizeable PHP codebase, and added many new features. Later I became
+        Software Architect and provided direction on writing maintainable, testable code.
       </p>
 
-      <h3>Software Architect at FrogTrade</h3>
-      <p>
-        From 2008 until 2010 I worked at Halifax-based <abbr title="Virtual Learning Environment">VLE</abbr>
-        provider <a href="http://frogtrade.com/">FrogTrade</a> as a Web Applications Developer,
-        and later as Software Architect. Much of my time as a developer was spent helping to iron
-        the bugs out of FrogTrade&rsquo;s half-million line codebase, and adding much requested new features.
-      </p>
-      <p>
-        As Software Architect I designed a controller and view system for a new product and
-        back-ported it to the existing software. I also laid the foundations for a flexible, XML-based
-        reporting system.
-      </p>
-
-      <h3>Hosted Services Director at Primary Technology</h3>
+      <h3>Primary Technology</h3>
       <p>
         I originally started at <a href="http://www.primaryt.co.uk/">Primary Technology</a> as a network
         engineer in 2005; maintaining Windows-based networks in Bradford primary schools. I later became
@@ -178,6 +148,11 @@
       <p>
         I added Tesseract 3.03 support to <a href="https://github.com/otiai10/gosseract">gosseract</a>
         (a <a href="https://en.wikipedia.org/wiki/Tesseract_(software)">Tesseract</a> wrapper for Go), and improved the test suite.
+      </p>
+
+      <h3>Linkheader</h3>
+      <p>
+        I wrote a <a href="https://github.com/tomnomnom/linkheader">Go package for parsing HTTP Link headers</a>.
       </p>
 
       <h3>Raspberry Pi User Guide</h3>
