@@ -118,6 +118,25 @@
         that I have worked on.
       </p>
 
+      <h3>gron</h3>
+      <p>
+        <a href="https://github.com/tomnomnom/gron">gron</a> is a tool that makes <abbr title="JavaScript Object Notation">JSON</abbr>
+        easier to grep by transforming it into a series of discrete assignments. It can <a href="https://github.com/tomnomnom/gron#ungronning">do the reverse</a> too.
+      </p>
+
+      <h3>xtermcolor</h3>
+      <p>
+        <a href="https://github.com/tomnomnom/xtermcolor">xtermcolor</a> is a Go package and associated command that returns the xterm
+        color code closest to a 24 bit color. It&rsquo;s useful if you want to do something like color ASCII art on the command line.
+      </p>
+
+      <h3>symwatch</h3>
+      <p>
+        <a href="https://github.com/tomnomnom/symwatch">symwatch</a> is a tool I wrote that polls the target of a symlink, running the
+        command provided to it when the target changes. It&rsquo;s handy if you use a symlink to point to the current version of
+        an Apache docroot and need to clear caches etc when the docroot changes.
+      </p>
+
       <h3>Phargs</h3>
       <p>
         I wrote <a href="https://github.com/TomNomNom/phargs">Phargs</a> to take the pain out of writing <abbr title="Command Line Interface">CLI</abbr>
@@ -132,22 +151,10 @@
         no means a complex client, but I&rsquo;m proud to be a part of the project.
       </p>
 
-      <h3>Goomwwm</h3>
+      <h3>goomwwm</h3>
       <p>
         A minor contribution, but I <a href="http://tomnomnom.com/posts/debugging-a-segfault-in-goomwwm">fixed a segfault in Goomwwm</a>.
         The fix was simple, but the debugging less so.
-      </p>
-
-      <h3>Pwas</h3>
-      <p>
-        I&rsquo;d never suggest anyone ran it in production, but I wrote <a href="https://github.com/TomNomNom/Pwas">a forking webserver in PHP</a>
-        to improve my understanding of HTTP.
-      </p>
-
-      <h3>Gosseract</h3>
-      <p>
-        I added Tesseract 3.03 support to <a href="https://github.com/otiai10/gosseract">gosseract</a>
-        (a <a href="https://en.wikipedia.org/wiki/Tesseract_(software)">Tesseract</a> wrapper for Go), and improved the test suite.
       </p>
 
       <h3>Linkheader</h3>
