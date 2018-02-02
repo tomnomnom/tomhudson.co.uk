@@ -1,204 +1,260 @@
-<!doctype html>
+<?php
+
+$proto = 'http://';
+if ($_SERVER['HTTP_HOST'] == 'tomhudson.co.uk'){
+    $proto = 'https://';
+}
+$host = $proto . $_SERVER['HTTP_HOST'];
+
+function e($str){
+    return htmlentities($str, ENT_QUOTES, "UTF-8");
+}
+
+?><!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head prefix="profile: http://ogp.me/ns/profile#">
-    <title>Tom Hudson &mdash; What an American might call a r&eacute;sum&eacute;</title>
-    <?php
-        $proto = 'http://';
-        if ($_SERVER['HTTP_HOST'] == 'tomhudson.co.uk'){
-            $proto = 'https://';
-        }
-        $host = $proto.$_SERVER['HTTP_HOST'];
-    ?>
+    <title>Tom Hudson</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="google-site-verification" content="gEn3cSDMkUx1RI20_8WrDJgvF8MicJqCBEgijIto8Bs" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="theme-color" content="#119C11">
     <meta property="og:title" content="Tom Hudson" />
-    <meta property="og:description" content="What an American might call a r&eacute;sum&eacute;" />
+    <meta property="og:description" content="Things about Tom Hudson" />
     <meta property="og:type" content="profile" />
     <meta property="profile:first_name" content="Tom" />
     <meta property="profile:last_name" content="Hudson" />
-    <meta property="og:url" content="<?=$host?>/" />
-    <meta property="og:image" content="<?=$host?>/images/sheep-solid.jpg" />
+    <meta property="og:url" content="<?=e($host)?>/" />
+    <meta property="og:image" content="<?=e($host)?>/images/sheep.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@TomNomNom" />
     <meta name="twitter:title" content="Tom Hudson" />
-    <meta name="twitter:description" content="What an American might call a r&eacute;sum&eacute;" />
-    <meta name="twitter:image" content="<?=$host?>/images/sheep-solid.jpg" />
-    <link rel="icon" sizes="64x64" href="/favicon.ico" type="image/x-icon">
+    <meta name="twitter:description" content="Things about Tom Hudson" />
+    <meta name="twitter:image" content="<?=e($host)?>/images/sheep.png" />
 
-    <!-- Special thanks to Harry of http://csswizardry.com/ for his advice on markup, style and CSS -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif|Droid+Sans"/>
+	<!-- Icons. Icons as far as the eye can see -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700">
     <link rel="stylesheet" type="text/css" href="/css/main.css"/>
 
   </head>
   <body>
-    <header>
-      <h1>Tom Hudson</h1>
-      <p>What an American might call a r&eacute;sum&eacute;</p>
-    </header>
+    <div class=wrapper>
+        <div class=header>
+            <h1>Tom Hudson</h1>
+            <p>(aka TomNomNom)</p>
+        </div>
 
-    <section class="info" id="info">
-      <h2><a href="#info">Who I am</a></h2>
-      <p>
-        I am a geek from Bradford, UK. I work at Sky Betting &amp; Gaming, where I lead the Delivery Engineering team.
-        I like to learn things, write <a href="https://github.com/search?utf8=%E2%9C%93&q=user%3Atomnomnom+language%3Aphp&type=Repositories&ref=searchresults">quite a bit of PHP</a>,
-        <a href="https://github.com/search?utf8=%E2%9C%93&q=user%3Atomnomnom+language%3Ago&type=Repositories&ref=searchresults">a bit of Go</a>,
-        and <a href="https://tomnomnom.com">I like to write words too</a>.
-      </p>
+        <div>
+            <h2>About</h2>
 
-    </section>
+            <div class=about>
+                <h3>Me</h3>
+                <p>
+                    I'm from Bradford in the UK. I like to fix things, make things, and teach people things.
+                    If you want to contact me you can <a href="https://twitter.com/tomnomnom">Tweet at me</a> or
+                    <a href=mailto:me@tomhudson.co.uk>email me</a>.
+                </p>
+            </div>
+        </div>
 
-    <hr/>
+        <div>
+            <h2>Projects</h2>
 
-    <section class="info" id="talks">
-      <h2><a href="#talks">Things I&rsquo;ve talked about</a></h2>
-      <p>
-        I&rsquo;ve spoken on a variety of subjects at several user groups and conferences,
-        like <a href="http://leedsphp.org/">LeedsPHP</a>,
-        <a href="http://barcampbarnsley.eventbrite.com/">BarCamp Barnsley</a>,
-        <a href="http://thedigitalbarn.co.uk/">The Digital Barn</a>, and
-        <a href="https://heyst.ac/">Hey!Stac</a>.
-        I&rsquo;ve talked about:
-      </p>
+            <div class=projects>
+                <div class=project>
+                    <h3>gron</h3>
+                    <p>
+                        My most successful open source project.
+                        <a href=https://github.com/tomnomnom/gron>gron</a> is a tool to make it easier to understand big blobs of <abrr title="JavaScript Object Notation">JSON</abbr>.
+                        It works by turning JSON into a series of discrete assignments so that you can grep for what you want and see the full 'path' to the values you find.
+                        You can turn filtered output <a href=https://github.com/tomnomnom/gron#ungronning>back into JSON</a> too.
+                    </p>
+                </div>
 
-        <ul>
-            <li><a href="https://github.com/TomNomNom/PHP-RockBand-Drums">Writing a RockBand drum game in PHP</a></li>
-            <li><a href="https://github.com/TomNomNom/PHP-Evolution-Sim">Simulating evolution in PHP</a></li>
-            <li><a href="https://github.com/TomNomNom/Talk---New-stuff-in-PHP-5.4">New stuff in PHP 5.4</a></li>
-            <li><a href="https://github.com/TomNomNom/Writing-Testable-PHP">Writing Testable PHP</a></li>
-            <li><a href="https://github.com/TomNomNom/node-in-production-talk">Using Node.js in production</a></li>
-            <li><a href="https://github.com/TomNomNom/distributing-work-with-rabbitmq">Distributing work with RabbitMQ</a></li>
-            <li><a href="https://github.com/TomNomNom/n-things-about-mongo">MongoDB</a></li>
-            <li><a href="https://github.com/TomNomNom/git-talk">Git</a></li>
-            <li><a href="https://github.com/TomNomNom/All-About-SPL">SPL</a></li>
-            <li><a href="https://github.com/TomNomNom/build-a-vm-talk">Building a simple Language VM</a></li>
-        </ul>
+                <div class=project>
+                    <h3>meg</h3>
+                    <p>
+                        A common tactic when pentesting web applications is to brute-force files and directories. I'm not a fan of flooding servers
+                        with lots of traffic, so I wrote <a href=#>meg</a> to look for one thing in lots of places instead of lots of things in one place.
+                    </p>
+                </div>
 
-        <p>
-            If you&rsquo;ve got an event you&rsquo;d like me to speak at, please <a href="#contact">contact me</a>.
-        </p>
+                <div class=project>
+                    <h3>waybackurls</h3>
+                    <p>
+                        Archive.org's <a href=https://archive.org/web/>Wayback Machine</a> is a fantastic resource for mapping web applications. I wrote
+                        <a href=https://github.com/tomnomnom/waybackurls>waybackurls</a> to fetch all of the URLs that the Wayback Machine
+                        knows about for a set of domains.
+                    </p>
+                </div>
 
-    </section>
+                <div class=project>
+                    <h3>rawhttp</h3>
+                    <p>
+                        In the process of writing <a href=https://github.com/tomnomnom/meg>meg</a> I found myself needing to send requests
+                        that had malformed escape sequences and other unusual payloads that Go's HTTP library did not support. I wrote the
+                        <a href=https://github.com/tomnomnom/rawhttp>rawhttp</a> package to give me more fine-grained control over
+                        HTTP request.
+                    </p>
+                </div>
 
-    <hr/>
+                <div class=project>
+                    <h3>linkheader</h3>
+                    <p>
+                        Link headers are often used in HTTP APIs for Pagination, and parsing them turns out to not be all that easy.
+                        I wrote the <a href=https://github.com/tomnomnom/linkheader>linkheader</a> Go package to do the heavy lifting.
+                    </p>
+                </div>
 
-    <section class="info" id="work">
-      <h2><a href="#work">Places I have worked</a></h2>
+                <div class=project>
+                    <h3>phpwol</h3>
+                    <p>
+                        Wake On LAN is a way to make computers power on by sending them a 'Magic' packet over a local network.
+                        <a href=https://github.com/tomnomnom/phpwol>phpwol</a> is a PHP library to do just that.
+                    </p>
+                </div>
 
-      <h3>Sky Betting &amp; Gaming</h3>
-      <p>
-        I&rsquo;ve worked at Sky Betting &amp; Gaming since 2011 when I joined as a software engineer. 
-        Now, five years later, I lead the Delivery Engineering team - who try their best to make it
-        easier for people to deliver software. We build tools, train people, and streamline processes.
-      </p>
+                <div class=project>
+                    <h3>symwatch</h3>
+                    <p>
+                        It's a fairly common pattern to use a symlink to point to the current version of a codebase.
+                        Sometimes it's neccesary to restart processes or clear caches when the version of a codebase changes, so
+                        I wrote <a href=https://github.com/tomnomnom/symwatch>symwatch</a> to poll a symlink for changes and run
+                        a command when they happen.
+                    </p>
+                </div>
 
-      <h3>FrogTrade Ltd</h3>
-      <p>
-        I worked at FrogTrade from 2008 until 2011. Starting as an Application Developer I helped
-        iron the bugs out of their rather sizeable PHP codebase, and added many new features. Later I became
-        Software Architect and provided direction on writing maintainable, testable code.
-      </p>
+                <div class=project>
+                    <h3>xtermcolor</h3>
+                    <p>
+                        A while ago I had a need to figure out which xterm color code was the closest to a 24bit color, so I wrote
+                        a Go palette and command line tool called <A href=https://github.com/tomnomnom/xtermcolor>xtermcolor</a> to
+                        do it for me.
+                    </p>
+                </div>
 
-      <h3>Primary Technology</h3>
-      <p>
-        I originally started at <a href="http://www.primaryt.co.uk/">Primary Technology</a> as a network
-        engineer in 2005; maintaining Windows-based networks in Bradford primary schools. I later became
-        the Hosted Services Director where I managed an Exchange-based hosted email system, remote access
-        system and wrote a web-based ticket management system.
-      </p>
-    </section>
+                <div class=project>
+                    <h3>globwatch</h3>
+                    <p>
+                        <a href=https://github.com/tomnomnom/globwatch>globwatch</a> is a Go package I wrote to watch a glob
+                        pattern (e.g. *.log) and emit 'events' when new files match the pattern, files are deleted,
+                        or truncated.
+                    </p>
+                </div>
 
-    <hr/>
+                <div class=project>
+                    <h3>phargs</h3>
+                    <p>
+                        Several years ago I found myself writing quite a few command line tools in PHP, and I noticed I was
+                        writing very similar code in every tool to process arguments, output things as tables etc. I wrote
+                        <a href=https://github.com/tomnomnom/phargs>phargs</a> as a little toolkit to make those kinds of
+                        tasks easier.
+                    </p>
+                </div>
 
-    <section class="info" id="opensource">
-      <h2><a href="#opensource">Open Source</a></h2>
-      <p>
-        I&rsquo;ve not worked on as much Open Source stuff as I would like, but here are a few things
-        that I have worked on.
-      </p>
+                <div class=project>
+                    <h3>flatclass</h3>
+                    <p>
+                        <a href=https://github.com/tomnomnom/flatclass>flatclass</a> is a debugging tool I wrote to make it
+                        easier to read and debug PHP classes with deep inheritance trees. It uses reflection to 'flatten'
+                        an inheritance tree by recursively copying parent methods into the target class.
+                    </p>
+                </div>
+            </div>
+        <div>
 
-      <h3>gron</h3>
-      <p>
-        <a href="https://github.com/tomnomnom/gron">gron</a> is a tool that makes <abbr title="JavaScript Object Notation">JSON</abbr>
-        easier to grep by transforming it into a series of discrete assignments. It can <a href="https://github.com/tomnomnom/gron#ungronning">do the reverse</a> too.
-      </p>
+        <div>
+            <h2>Talks</h2>
 
-      <h3>xtermcolor</h3>
-      <p>
-        <a href="https://github.com/tomnomnom/xtermcolor">xtermcolor</a> is a Go package and associated command that returns the xterm
-        color code closest to a 24 bit color. It&rsquo;s useful if you want to do something like color ASCII art on the command line.
-      </p>
+            <div class=media>
+                <div class=description>
+                    <h3>Passive-ish Recon Techniques - BSides Leeds (2018-01-26)</h3>
+                    <p>
+                        My first security related talk, and the first ever BSides Leeds was a fantastic venue for it. I talk
+                        about (mostly) passive ways to gather information on a target for pentesting or taking part in bug
+                        bounty programs; like Google Dorking, grepping through GitHub repos, decompiling Android applications,
+                        and using Archive.org's <a href="https://archive.org/web/">Wayback Machine</a>.
+                    </p>
+                    <p>
+                        I also introduce <a href=https://github.com/tomnomnom/meg>a tool I wrote</a> for 'breadth-first'
+                        scanning, and some examples of the kinds of things I've found with it.
+                    </p>
+                </div>
 
-      <h3>symwatch</h3>
-      <p>
-        <a href="https://github.com/tomnomnom/symwatch">symwatch</a> is a tool I wrote that polls the target of a symlink, running the
-        command provided to it when the target changes. It&rsquo;s handy if you use a symlink to point to the current version of
-        an Apache docroot and need to clear caches etc when the docroot changes.
-      </p>
+                <div class=preview>
+                    <iframe width="400" height="260" src="https://www.youtube.com/embed/DvS_ew77GXA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
 
-      <h3>Phargs</h3>
-      <p>
-        I wrote <a href="https://github.com/TomNomNom/phargs">Phargs</a> to take the pain out of writing <abbr title="Command Line Interface">CLI</abbr>
-        tools in PHP, particularly argument processing. It&rsquo;s very much a toolkit rather than a framework, so you can easily pick and choose
-        the bits you need and ignore the rest.
-      </p>
+            <div class="media">
+                <div class=description>
+                    <h3>Writing Readable Code - Sky Betting &amp; Gaming (2017-03-22)</h3>
+                    <p>
+                        A compliation of tips and tricks I've gathered across more than a decade of reading source code.
+                    </p>
+                    <p>
+                        There's nothing particularly groundbreaking here, but I really wanted to collect all of the things that
+                        I think make it easier to read code into one place.
+                    </p>
+                </div>
 
-      <h3>Etherpad Lite</h3>
-      <p>
-        I have helped to maintain the <a href="http://etherpad.org/">Etherpad Lite</a>
-        <a href="https://github.com/TomNomNom/etherpad-lite-client">PHP client</a>. It&rsquo;s by
-        no means a complex client, but I&rsquo;m proud to be a part of the project.
-      </p>
+                <div class=preview>
+                    <iframe width="400" height="260" src="https://www.youtube.com/embed/OVf0xP4BLq0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
 
-      <h3>goomwwm</h3>
-      <p>
-        A minor contribution, but I <a href="http://tomnomnom.com/posts/debugging-a-segfault-in-goomwwm">fixed a segfault in Goomwwm</a>.
-        The fix was simple, but the debugging less so.
-      </p>
+            </div>
 
-      <h3>Linkheader</h3>
-      <p>
-        I wrote a <a href="https://github.com/tomnomnom/linkheader">Go package for parsing HTTP Link headers</a>.
-      </p>
+            <div class=media>
+                <div class=description>
+                    <h3>Let's Build a Virtual Machine! - Hey! (2014-10-28)</h3>
+                    <p>
+                        Live-coding a simple language VM on stage. What could possibly Go wrong?
+                    </p>
+                    <p>
+                        Things like the <abbr title="Java Virtual Machine">JVM</abbr> used to just seem like magic black
+                        boxes to me, so I decided to learn how they work. Once I'd realised how simple the core concepts
+                        are I couldn't help myself but to share.
+                    </p>
+                </div>
 
-      <h3>Raspberry Pi User Guide</h3>
-      <p>
-        I contributed a <a href="http://media.wiley.com/product_ancillary/6X/11184644/DOWNLOAD/ircuserlist.py">Python program</a>
-        to the <a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111846446X.html">Official Raspberry Pi User Guide</a>.
-        It&rsquo;s a simple program designed to demonstrate basic network programming by connecting
-        to an <abbr title="Internet Relay Chat">IRC</abbr> server and listing the connected users.
-      </p>
-    </section>
+                <div class=preview>
+                    <iframe width="400" height="260" src="https://www.youtube.com/embed/DwHJrh3zRH0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
 
-    <hr/>
 
-    <section class="info" id="contact">
-      <h2><a href="#contact">How to contact me</a></h2>
-      <p>
-        If it&rsquo;s informal, feel free to <a href="https://twitter.com/#!/TomNomNom">mention me on Twitter</a>.
-        If you want a bit more privacy or aren&rsquo;t a fan of this new-fangled social networking, just
-        <a href="mailto:me@tomhudson.co.uk">email me</a> instead.
-      </p>
-    </section>
+        <div>
+            &copy; Tom Hudson <?=date('Y');?>
+        </div>
 
-    <footer>
-      <p>
-        &copy; Tom Hudson <?=date('Y');?> - I feel slightly sick having written all that stuff about myself.
-      </p>
-    </footer>
+    </div>
 
     <?php if($_SERVER['HTTP_HOST'] === 'tomhudson.co.uk'): ?>
     <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-22278243-4']);
-      _gaq.push(['_trackPageview']);
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-22278243-4']);
+        _gaq.push(['_trackPageview']);
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
     </script>
     <?php else: ?>
     <!-- Here would be GA JS if we weren't in dev mode -->
