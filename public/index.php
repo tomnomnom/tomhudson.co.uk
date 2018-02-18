@@ -94,6 +94,14 @@ function e($str){
                 </div>
 
                 <div class="project box">
+                    <h3>comb</h3>
+                    <p>
+                        I wrote <a href=https://github.com/tomnomnom/comb>comb</a> because I often found myself writing pretty much the same nested loops
+                        in bash to output every permutation of the lines in two files. Having a dedicated tool speeds things up a lot.
+                    </p>
+                </div>
+
+                <div class="project box">
                     <h3>waybackurls</h3>
                     <p>
                         Archive.org's <a href=https://archive.org/web/>Wayback Machine</a> is a fantastic resource for mapping web applications. I wrote
