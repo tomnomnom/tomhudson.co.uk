@@ -61,7 +61,7 @@ function e($str){
         <div>
             <h2>About</h2>
 
-            <div class=about>
+            <div class="about box">
                 <h3>Me</h3>
                 <p>
                     I'm from Bradford in the UK. I like to fix things, make things, and teach people things.
@@ -75,7 +75,7 @@ function e($str){
             <h2>Projects</h2>
 
             <div class=projects>
-                <div class=project>
+                <div class="project box">
                     <h3>gron</h3>
                     <p>
                         My most successful open source project.
@@ -85,7 +85,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>meg</h3>
                     <p>
                         A common tactic when pentesting web applications is to brute-force files and directories. I'm not a fan of flooding servers
@@ -93,7 +93,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>waybackurls</h3>
                     <p>
                         Archive.org's <a href=https://archive.org/web/>Wayback Machine</a> is a fantastic resource for mapping web applications. I wrote
@@ -102,7 +102,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>rawhttp</h3>
                     <p>
                         In the process of writing <a href=https://github.com/tomnomnom/meg>meg</a> I found myself needing to send requests
@@ -112,7 +112,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>linkheader</h3>
                     <p>
                         Link headers are often used in HTTP APIs for Pagination, and parsing them turns out to not be all that easy.
@@ -120,7 +120,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>phpwol</h3>
                     <p>
                         Wake On LAN is a way to make computers power on by sending them a 'Magic' packet over a local network.
@@ -128,7 +128,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>symwatch</h3>
                     <p>
                         It's a fairly common pattern to use a symlink to point to the current version of a codebase.
@@ -138,7 +138,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>xtermcolor</h3>
                     <p>
                         A while ago I had a need to figure out which xterm color code was the closest to a 24bit color, so I wrote
@@ -147,7 +147,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>globwatch</h3>
                     <p>
                         <a href=https://github.com/tomnomnom/globwatch>globwatch</a> is a Go package I wrote to watch a glob
@@ -156,7 +156,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>phargs</h3>
                     <p>
                         Several years ago I found myself writing quite a few command line tools in PHP, and I noticed I was
@@ -166,7 +166,7 @@ function e($str){
                     </p>
                 </div>
 
-                <div class=project>
+                <div class="project box">
                     <h3>flatclass</h3>
                     <p>
                         <a href=https://github.com/tomnomnom/flatclass>flatclass</a> is a debugging tool I wrote to make it
@@ -180,7 +180,7 @@ function e($str){
         <div>
             <h2>Talks</h2>
 
-            <div class=media>
+            <div class="media box">
                 <div class=description>
                     <h3>Passive-ish Recon Techniques - BSides Leeds (2018-01-26)</h3>
                     <p>
@@ -200,7 +200,7 @@ function e($str){
                 </div>
             </div>
 
-            <div class="media">
+            <div class="media box">
                 <div class=description>
                     <h3>Writing Readable Code - Sky Betting &amp; Gaming (2017-03-22)</h3>
                     <p>
@@ -218,7 +218,7 @@ function e($str){
 
             </div>
 
-            <div class=media>
+            <div class="media box">
                 <div class=description>
                     <h3>Let's Build a Virtual Machine! - Hey! (2014-10-28)</h3>
                     <p>
@@ -238,7 +238,7 @@ function e($str){
         </div>
 
 
-        <div>
+        <div class=copy>
             &copy; Tom Hudson <?=date('Y');?>
         </div>
 
