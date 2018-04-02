@@ -123,7 +123,7 @@ function e($str){
                 <div class="project box">
                     <h3>linkheader</h3>
                     <p>
-                        Link headers are often used in HTTP APIs for Pagination, and parsing them turns out to not be all that easy.
+                        Link headers are often used in HTTP APIs for pagination, and parsing them turns out to not be all that easy.
                         I wrote the <a href=https://github.com/tomnomnom/linkheader>linkheader</a> Go package to do the heavy lifting.
                     </p>
                 </div>
@@ -206,6 +206,24 @@ function e($str){
                 <div class=preview>
                     <iframe width="400" height="260" src="https://www.youtube.com/embed/DvS_ew77GXA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
+            </div>
+
+            <div class="media box">
+                <div class=description>
+                    <h3>Big Numbers and the 1Hz CPU - Agile Yorkshire (2017-12-13)</h3>
+                    <p>
+                        A lightning talk about how humans suck at big numbers, and how long things would take in the world
+                        of a 1Hz CPU.
+                    </p>
+                    <p>
+                        All of the slides were hand-drawn, and I was wearing a party hat because it was Christmas.
+                    </p>
+                </div>
+
+                <div class=preview>
+                    <iframe width="400" height="260" src="https://www.youtube.com/embed/pDBOC6I3K8g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+
             </div>
 
             <div class="media box">
