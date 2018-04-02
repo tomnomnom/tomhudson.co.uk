@@ -89,7 +89,16 @@ function e($str){
                     <h3>meg</h3>
                     <p>
                         A common tactic when pentesting web applications is to brute-force files and directories. I'm not a fan of flooding servers
-                        with lots of traffic, so I wrote <a href=#>meg</a> to look for one thing in lots of places instead of lots of things in one place.
+                        with lots of traffic, so I wrote <a href=https://github.com/tomnomnom/meg>meg</a> to look for one thing in lots of places instead of lots of things in one place.
+                    </p>
+                </div>
+
+                <div class="project box">
+                    <h3>unfurl</h3>
+                    <p>
+                        I wrote <a href=https://github.com/tomnomnom/unfurl>unfurl</a> because I was fed up of writing the same regular expressions over and over again to pull bits out of URLs. 
+                        It parses URLs provided on stdin and lets you specify the parts of the URL you want to pull out. It supports custom output formats by using a printf-style set of format
+                        specifiers.
                     </p>
                 </div>
 
