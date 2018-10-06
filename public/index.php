@@ -120,6 +120,14 @@ function e($str){
                 </div>
 
                 <div class="project box">
+                    <h3>gf</h3>
+                    <p>
+                        <a href=https://github.com/tomnomnom/gf>gf</a> is a simple wrapper around grep to manage sets of complex and commonly used patterns.
+                        I use it when auditing codebases or examining the output of <a href=https://github.com/tomnomnom/meg>meg</a>.
+                    </p>
+                </div>
+
+                <div class="project box">
                     <h3>rawhttp</h3>
                     <p>
                         In the process of writing <a href=https://github.com/tomnomnom/meg>meg</a> I found myself needing to send requests
@@ -189,6 +197,25 @@ function e($str){
                         <a href=https://github.com/tomnomnom/flatclass>flatclass</a> is a debugging tool I wrote to make it
                         easier to read and debug PHP classes with deep inheritance trees. It uses reflection to 'flatten'
                         an inheritance tree by recursively copying parent methods into the target class.
+                    </p>
+                </div>
+
+                <div class="project box">
+                    <h3>httprobe</h3>
+                    <p>
+                        <a href=https://github.com/tomnomnom/httprobe>httprobe</a> takes a list of domains on stdin and checks
+                        for listening HTTP servers. It defaults to looking for HTTP on port 80 and HTTPS on port 443, but you
+                        can specify additional ports to try too.
+                    </p>
+                </div>
+
+                <div class="project box">
+                    <h3>hacks</h3>
+                    <p>
+                        Not a single project, but my <a href=https://github.com/tomnomnom/hacks>hacks</a> repo contains ideas
+                        I'm trying out, simple tools I'm not quite sure about yet, and one-off scripts that I might need again
+                        one day. Several of my other projects started in this repo and graduated to their own repository once
+                        I decided they were useful enough to warrant it.
                     </p>
                 </div>
             </div>
