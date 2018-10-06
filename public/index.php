@@ -210,6 +210,25 @@ function e($str){
                 </div>
 
                 <div class="project box">
+                    <h3>concurl</h3>
+                    <p>
+                        Although meg is useful, it lacks some of the options that curl does. I wrote <a href=https://github.com/tomnomnom/concurl>concurl</a>
+                        for the situations where I need a bit more of the power that curl offers. Really it's just a wrapper around running concurrent curl
+                        processes to fetch the URLs provided on stdin.
+                    </p>
+                </div>
+
+                <div class="project box">
+                    <h3>eater-cpu</h3>
+                    <p>
+                        If you want to know more about how computers work, you should watch Ben Eater's fantastic
+                        <a href=https://www.youtube.com/watch?v=HyznrdDSSGM&list=PLowKtXNTBypGqImE405J2565dvjafglHU>8-Bit Breadboard Computer</a>
+                        project. I didn't have the time to build a real version of his 8-bit computer, so I wrote
+                        <a href=https://github.com/tomnomnom/eater-cpu>an emulator</a> for it instead.
+                    </p>
+                </div>
+
+                <div class="project box">
                     <h3>hacks</h3>
                     <p>
                         Not a single project, but my <a href=https://github.com/tomnomnom/hacks>hacks</a> repo contains ideas
